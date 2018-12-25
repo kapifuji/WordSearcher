@@ -1,7 +1,7 @@
 from PyQt5 import QtCore, QtWidgets, QtWebEngineWidgets
 import pyperclip
 import time
-import Const
+import source.Const as Const
 
 class MainWindow(QtWidgets.QMainWindow):
     """ウインドウ統括用クラス"""
@@ -57,7 +57,7 @@ class MainWidget(QtWidgets.QWidget):
     def __getWebViewLayout(self):
         vLayout = QtWidgets.QVBoxLayout()
         self.__webView = QtWebEngineWidgets.QWebEngineView()
-        self.__webView.load(QtCore.QUrl("https://github.com/rpianna/WordSeacher/blob/master/README.md"))
+        self.__webView.setHtml(Const.welcomePage)
         vLayout.addWidget(self.__webView)
 
         return vLayout
