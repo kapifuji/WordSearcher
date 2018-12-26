@@ -1,10 +1,11 @@
 import sys
-from source.GUI import MainWindow
 from PyQt5 import QtWidgets
+from source.GUI import MainWindow
+import source.Const as Const
 
 def main():
     app = QtWidgets.QApplication(sys.argv)
-    gui = MainWindow("WordSeacher")
+    gui = MainWindow(Const.windowName)
     gui.show()
 
     app.exec_()

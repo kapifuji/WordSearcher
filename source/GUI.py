@@ -57,6 +57,10 @@ class MainWidget(QtWidgets.QWidget):
     def __getWebViewLayout(self):
         vLayout = QtWidgets.QVBoxLayout()
         self.__webView = QtWebEngineWidgets.QWebEngineView()
+        webProfile = QtWebEngineWidgets.QWebEngineProfile(self.__webView)
+        webProfile.setHttpUserAgent(Const.webViewUA)
+        webPage = QtWebEngineWidgets.QWebEnginePage(webProfile, self)
+        self.__webView.setPage(webPage)
         self.__webView.setHtml(Const.welcomePage)
         vLayout.addWidget(self.__webView)
 

@@ -6,8 +6,11 @@ searchRef = {
     "Google翻訳": "https://translate.google.co.jp/?hl=ja#view=home&op=translate&sl=en&tl=ja&text="
 }
 
+windowName = "WordSeacher"
 windowSizeX = 500
 windowSizeY = 500
+
+webViewUA = "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) CriOS/61.0.3163.73 Mobile/15A372 Safari/602.1"
 
 welcomePage = """
 <!doctype html>
@@ -15,7 +18,7 @@ welcomePage = """
 <head>
     <meta charset="utf-8" />
     <style type="text/css">
-    * { font-family: -apple-system, BlinkMacSystemFont,
+    body { font-family: -apple-system, BlinkMacSystemFont,
      "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3",
       Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif; }
     </style>
