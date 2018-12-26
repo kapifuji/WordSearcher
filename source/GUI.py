@@ -93,5 +93,4 @@ class ClipBoardObservation(QtCore.QThread):
                 self.signal.emit(clipText)
                 self.__previousWord = clipText
                     
-            print(clipText)
             time.sleep(0.5)
