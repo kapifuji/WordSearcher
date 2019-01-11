@@ -24,7 +24,7 @@ WordSearcher
 
 ## Licence
 
-[MIT](https://github.com/rpianna/WordSeacher/blob/master/LICENSE)
+[GPL-3.0](https://github.com/rpianna/WordSeacher/blob/master/LICENSE)
 
 ## Author
 
