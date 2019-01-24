@@ -11,6 +11,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.__initWindow(windowName)
 
     def __initWindow(self, windowName):
+        """ウインドウタイトル、画面サイズ、最前面表示"""
         self.setWindowTitle(windowName)
         self.resize(Const.windowSizeX, Const.windowSizeY)
         self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
@@ -20,6 +21,7 @@ class MainWidget(QtWidgets.QWidget):
     """GUI構成、GUI関連処理用クラス"""
 
     def __init__(self):
+        """GUIの構成とクリップボード監視スレッド開始"""
         super().__init__()
         self.__setGUI()
         self.__clipThread = ClipBoardObservation()
@@ -27,6 +29,7 @@ class MainWidget(QtWidgets.QWidget):
         self.__clipThread.start()
         
     def __setGUI(self):
+        """WebView部分とナビゲーション部分のUIを結合"""
         wrapLayout = QtWidgets.QVBoxLayout()
         wrapLayout.addLayout(self.__getNavigationLayout())
         wrapLayout.addLayout(self.__getWebViewLayout())
@@ -34,6 +37,7 @@ class MainWidget(QtWidgets.QWidget):
         self.setLayout(wrapLayout)
     
     def __getNavigationLayout(self):
+        """前後ボタンと検索先変更プルダウンメニューを構成"""
         hLayout = QtWidgets.QHBoxLayout()
 
         backButton = QtWidgets.QPushButton("←")
@@ -55,6 +59,7 @@ class MainWidget(QtWidgets.QWidget):
         return hLayout
 
     def __getWebViewLayout(self):
+        """WebViewを構成"""
         vLayout = QtWidgets.QVBoxLayout()
         self.__webView = QtWebEngineWidgets.QWebEngineView()
         webProfile = QtWebEngineWidgets.QWebEngineProfile(self.__webView)
@@ -67,6 +72,10 @@ class MainWidget(QtWidgets.QWidget):
         return vLayout
 
     def __loadWebPage(self, clipText: str, refer: str = None):
+        """
+        クリップボード変化時と検索変更時に呼ばれる。
+        クリップボードの語句で指定検索先を検索。
+        """
         if clipText == "":
             return
         if (refer is None) or (refer not in Const.searchRef.keys()):
@@ -87,6 +96,10 @@ class ClipBoardObservation(QtCore.QThread):
         QtCore.QThread.__init__(self)
 
     def run(self):
+        """
+        0.5秒おきにクリップボードを検査。
+        変化があれば検索を実行。
+        """
         while True:
             clipText = str(pyperclip.paste())
             if not self.__previousWord == clipText:
