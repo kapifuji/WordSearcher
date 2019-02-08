@@ -1,3 +1,4 @@
+# 検索先リスト
 searchRef = {
     "Wikipedia": "https://ja.m.wikipedia.org/wiki/",
     "Weblio英和・和英": "https://ejje.weblio.jp/content/",
@@ -12,12 +13,15 @@ searchRef = {
     "WolframAlpha": "https://m.wolframalpha.com/input/?i=",
 }
 
+# ウインドウの名前とサイズ
 windowName = "WordSeacher"
 windowSizeX = 500
 windowSizeY = 600
 
+# 使用するUserAgent
 webViewUA = "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) CriOS/61.0.3163.73 Mobile/15A372 Safari/602.1"
 
+# 起動時画面用HTML
 welcomePage = """
 <!doctype html>
 <html>

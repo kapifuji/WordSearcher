@@ -3,7 +3,7 @@ from PyQt5 import QtWidgets
 from source.GUI import MainWindow
 import source.Const as Const
 
-def main():
+def main() -> None:
     app = QtWidgets.QApplication(sys.argv)
     gui = MainWindow(Const.windowName)
     gui.show()
