@@ -7,7 +7,7 @@ searchRef = {
     "Google翻訳　英日": "https://translate.google.co.jp/?hl=ja#view=home&op=translate&sl=en&tl=ja&text=",
     "Google検索": "https://www.google.com/search?q=",
     "Weblio辞書": "https://www.weblio.jp/content/",
-    "コトバンク": "https://dic.yahoo.co.jp/search/?ei=UTF-8&p=",
+    "コトバンク": "https://kotobank.jp/word/",
     "Twitter": "https://twitter.com/search?q=",
     "Googleトレンド": "https://trends.google.co.jp/trends/explore?geo=JP&q=",
     "WolframAlpha": "https://m.wolframalpha.com/input/?i=",
