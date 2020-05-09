@@ -16,7 +16,7 @@ searchRef = {
 }
 
 # ウインドウの名前とサイズ
-windowName = "WordSeacher"
+windowName = "WordSearcher"
 windowSizeX = 500
 windowSizeY = 600
 
