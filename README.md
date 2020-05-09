@@ -1,7 +1,7 @@
 WordSearcher
 ====
-![WordSearcher 2020_05_10 0_05_49](https://user-images.githubusercontent.com/16664464/81477573-7456ae00-9253-11ea-809d-e8ebdfcee23c.png)
-![WordSearcher 2020_05_10 0_05_04](https://user-images.githubusercontent.com/16664464/81477572-73be1780-9253-11ea-89be-5659605171b9.png)
+![WordSearcher 2020_05_10 1_00_24](https://user-images.githubusercontent.com/16664464/81478687-dfa37e80-9259-11ea-8dd2-699d88ee5a0a.png)
+![WordSearcher 2020_05_10 1_00_53](https://user-images.githubusercontent.com/16664464/81478688-e205d880-9259-11ea-87fa-8459611a8925.png)
 
 簡単操作で語句検索ができるツールです。
 
