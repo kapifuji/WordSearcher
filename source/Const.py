@@ -5,6 +5,8 @@ searchRef = {
     "英辞郎": "https://eow.alc.co.jp/search?q=",
     "Google翻訳　日英": "https://translate.google.co.jp/?hl=ja#view=home&op=translate&sl=ja&tl=en&text=",
     "Google翻訳　英日": "https://translate.google.co.jp/?hl=ja#view=home&op=translate&sl=en&tl=ja&text=",
+    "DeepL　日英": "https://www.deepl.com/translator#ja/en/",
+    "DeepL　英日": "https://www.deepl.com/translator#en/ja/",
     "Google検索": "https://www.google.com/search?q=",
     "Weblio辞書": "https://www.weblio.jp/content/",
     "コトバンク": "https://kotobank.jp/word/",
