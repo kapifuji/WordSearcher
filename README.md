@@ -18,15 +18,15 @@ WordSearcher
 3. 検索先を変えたい場合は右上のプルダウンメニューから選択
 
 ## Install
-[releases](https://github.com/rpianna/WordSeacher/releases) から最新版の `WordSeacher.exe` をダウンロード
+[releases](https://github.com/rpianna/WordSearcher/releases) から最新版の `WordSearcher.exe` をダウンロード
 
 または
 
-`git clone https://github.com/rpianna/WordSeacher.git` して `Main.py` を実行
+`git clone https://github.com/rpianna/WordSearcher.git` して `Main.py` を実行
 
 ## Licence
 
-[GPL-3.0](https://github.com/rpianna/WordSeacher/blob/master/LICENSE)
+[GPL-3.0](https://github.com/rpianna/WordSearcher/blob/master/LICENSE)
 
 ## Author
 
