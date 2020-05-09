@@ -1,9 +1,9 @@
 WordSearcher
 ====
-
-簡単操作で語句検索ができるツールです。    
 ![WordSeacher 2020_05_10 0_05_04](https://user-images.githubusercontent.com/16664464/81477572-73be1780-9253-11ea-89be-5659605171b9.png)
 ![WordSeacher 2020_05_10 0_05_49](https://user-images.githubusercontent.com/16664464/81477573-7456ae00-9253-11ea-809d-e8ebdfcee23c.png)
+
+簡単操作で語句検索ができるツールです。
 
 ## Requirement
 `Python 3.6.7` で動作確認済　
