@@ -37,3 +37,8 @@ WordSearcher
 ## Author
 
 [kapifuji](https://github.com/rpianna)
+
+
+## Copyright
+
+Copyright (C) 2021 kapifuji
