@@ -1,0 +1,18 @@
+The WordSearcher bundle several libraries.
+We list these licenses here.
+
+Name: Python
+License: Python Software Foundation
+    For details, see Licenses_bundled/LICENSE_Python.txt
+Copyright © 2001-2021 Python Software Foundation; All Rights Reserved
+
+Name: pyperclip
+License: BSD 3-Clause "New" or "Revised" License
+    For details, see Licenses_bundled/LICENSE_pyperclip.txt
+Copyright (c) 2014, Al Sweigart
+All rights reserved.
+
+Name: PyQt5
+License: GNU General Public License version 3.0
+    For details, see Licenses_bundled/LICENSE_PyQt5.txt
+Copyright (c) 2018 Riverbank Computing Limited <info@riverbankcomputing.com>
