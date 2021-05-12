@@ -29,7 +29,7 @@ WordSearcher
 
 ## Licence
 
-本ソフトウェアのライセンスは [LICENSE.txt](https://github.com/rpianna/WordSearcher/blob/master/LICENSE.txt) に記載しています。
+本ソフトウェアは [GPL-3.0](https://github.com/rpianna/WordSearcher/blob/master/LICENSE.txt) で公開されています。
 
 また、本ソフトウェアが使用しているソフトウェアのライセンス表記情報は [Licenses_bundled.txt](https://github.com/rpianna/WordSearcher/blob/master/Licenses_bundled.txt) に記載しています。
 
