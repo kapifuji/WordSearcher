@@ -21,7 +21,7 @@ WordSearcher
 3. 検索先を変えたい場合は右上のプルダウンメニューから選択
 
 ## Install
-[releases](https://github.com/rpianna/WordSearcher/releases) から最新版の `WordSearcher.exe` をダウンロード
+[releases](https://github.com/rpianna/WordSearcher/releases) から最新版の `WordSearcher` をダウンロード
 
 または
 
