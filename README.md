@@ -1,6 +1,6 @@
 WordSearcher
 ====
-[![LICENSE](https://img.shields.io/badge/license-GPL3.0-blue)](LISENCE.txt)
+[![LICENSE](https://img.shields.io/badge/license-GPLv3-blue)](LISENCE.txt)
 ![Latest GitHub release](https://img.shields.io/github/release/rpianna/WordSearcher.svg)
 
 ![WordSearcher image 1](https://user-images.githubusercontent.com/16664464/81478687-dfa37e80-9259-11ea-8dd2-699d88ee5a0a.png)
