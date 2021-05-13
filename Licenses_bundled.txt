@@ -15,4 +15,17 @@ All rights reserved.
 Name: PyQt5
 License: GNU General Public License version 3.0
     For details, see Licenses_bundled/LICENSE_PyQt5.txt
-Copyright (c) 2018 Riverbank Computing Limited <info@riverbankcomputing.com>
+Copyright (c) 2021 Riverbank Computing Limited <info@riverbankcomputing.com>
+
+Name: PyQtWebEngine
+License: GNU General Public License version 3.0
+    For details, see Licenses_bundled/LICENSE_PyQtWebEngine.txt
+Copyright (c) 2021 Riverbank Computing Limited <info@riverbankcomputing.com>
+
+Name: cx_Freeze
+License: Python Software Foundation
+    For details, see Licenses_bundled/LICENSE_cx_Freeze.rst
+Copyright © 2020-2021, Marcelo Duarte.
+Copyright © 2007-2020, Anthony Tuininga.
+Copyright © 2001-2006, Computronix (Canada) Ltd., Edmonton, Alberta, Canada.
+All rights reserved.
