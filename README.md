@@ -9,7 +9,7 @@ WordSearcher
 簡単操作で語句検索ができるツールです。
 
 ## Requirement
-`Python 3.6.7` で動作確認済　
+`Python 3.9.4` で動作確認済　
 
 `requirements.txt` に記載したパッケージ
 
