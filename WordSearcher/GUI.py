@@ -20,7 +20,7 @@
 from PyQt5 import QtCore, QtWidgets, QtWebEngineWidgets
 import pyperclip
 import time
-import source.Const as Const
+import Const as Const
 
 class MainWindow(QtWidgets.QMainWindow):
     """ウインドウ統括用クラス"""

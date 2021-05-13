@@ -20,8 +20,8 @@
 import os
 import sys
 from PyQt5 import QtWidgets, QtGui
-from source.GUI import MainWindow
-import source.Const as Const
+from GUI import MainWindow
+import Const
 
 
 def resource_path(relative) -> str:
